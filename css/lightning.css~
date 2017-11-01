@@ -1,0 +1,60 @@
+/* Lightning Three */
+
+header {
+    background-image: none;
+    background-color: #000000;
+}
+
+.btn {
+    background-color: #fcd514;
+    color: black;
+/* FFD42A */
+}
+
+hr {
+    border-color: #FFD42A;
+}
+
+.bg-primary {
+/*    background-color: #0000A4; */
+    background-color: #0D72C4;
+}
+
+.text-primary {
+    color: #0D72C4;
+}
+
+.portfolio-box .portfolio-box-caption {
+    background-color: rgba(13, 114, 196, 0.8);
+}
+
+.navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
+    color: #0D72C4 !important;
+}
+
+.navbar-default.affix .nav > li > a:hover, .navbar-default.affix .nav > li > a:focus:hover {
+    color: #0D72C4 !important;
+}
+
+#contact a {
+    color: #0D72C4 !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background-color: white;
+    border-color: #EBEBEB;
+    color: black;
+}
+
+@media(max-width: 767px)
+.navbar-default .navbar-header .navbar-brand {
+    color: black;
+}
+
+.navbar-default.affix .navbar-header .navbar-brand {
+    color: #0D72C4;
+}
+
+.navbar-default .navbar-header .navbar-brand:focus, .navbar-default .navbar-header .navbar-brand:hover {
+    color: black;
+}
